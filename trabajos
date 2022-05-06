@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+funt main(){
+
+	var manzana==nil{
+		fmt.println("manzana",manzana,"es nil")
+
+
+	}else{
+
+		fmt.println(manzana,"no es nil")
+	}
+}
