@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	verde := 200
+	azul := &verde
+	negro := &azul
+
+	if *azul == verde {
+		fmt.Println("la direccion de memoria es verde")
+
+	}
+	if **negro == *azul {
+		fmt.Println("la direccion de memoria es la misma a la anterior")
+	}
+
+}
